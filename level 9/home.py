@@ -69,3 +69,5 @@ name_entered = input('Enter the name: ')
 password_entered = input('enter password: ')
 
 print(name == name_entered and password == password_entered)
+
+#კონკატენაცია ნიშნავს ახალი სტრინგის მიღებას 2 სტრინგის გაერთიანებით
