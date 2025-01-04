@@ -1,0 +1,26 @@
+body {background-color: lightblue;}
+
+
+
+h1 { color: darkblue;
+     font-family: cursive;
+     font-weight: 700;
+     font-size: 3em;
+
+}
+
+article p {
+    color: blue;
+    font-family: cursive;
+    font-weight: 450;
+    font-size: 1 em;
+
+}
+
+footer p {
+    color: dodgerblue;
+    font-family: Verdana;
+    font-weight: 750;
+    font-size: 3 em;
+    
+}
