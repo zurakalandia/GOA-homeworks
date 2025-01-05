@@ -1,0 +1,61 @@
+body {
+    background-color: lightblue;
+}
+
+hr {
+    height: 10px;
+    background-color: darkblue;
+}
+
+h1 {
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 3em;
+    color: darkblue;
+}
+
+.box {
+    font-size: 2em;
+    font-family:cursive;
+    width: 1500px;
+    padding: 20px;
+    border: 2px solid black;
+   
+
+}
+
+.coding {
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.p {
+    color: darkblue;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h3 {
+    color: blue;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.blue {
+    width: 200px;
+    height: 100px;
+    font-size: 2em;
+    background-color: blue;
+}
+
+.red {
+    width: 200px;
+    height: 100px;
+    font-size: 2em;
+    background-color: red;
+    margin-left: 10px;
+}
