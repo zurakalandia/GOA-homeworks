@@ -1,0 +1,59 @@
+p {
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+/*text-transform-ს ტექსტი გადაყავს lowercase-ში ანუ ასოებს აპატარავებს, uppercase-ში ანუ ადიდებს ან მხოლოდ პირველ ასოს ადიდებს. */
+
+p {
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through
+
+}
+
+/*text-decoration-ით ტექსტს შეგვიძლია დავუმატოტ დეკორაცია, გავუსვათ სხვადასხვა სახის ხაზები სხვადასხვა ადგილას, ან საერთოდ მოვაშოროთ დეკორაცია none- ის გამოყენებით*/
+
+p {
+    text-shadow: 10 20 10 blue;
+    text-shadow: 15 30 20 yellow;
+    text-shadow: 35 40 15 green;
+
+}
+
+/*text-shadow ქმნის ჩრდილებს. პირველში იწერება ჩრდილის გაწევა ჰორიზონტალურად, მეორეში ვერტიკალურად, მესამეში ჩრდილისის ბინდის სიძლიერე და მეოტეში ჩრდილის ფერი*/
+
+p {
+    text-align: left;
+    text-align: right;
+    text-align: center;
+
+}
+
+/*text-align განსაზღვრავს ტექსტის პოზიციას. მარცხნივ, შუაში, მარჯვნივ.*/
+p {
+    line-height: 1;
+    line-height: 1.5;
+    line-height: 1.8;
+
+}
+
+/*line-height განსაზღვრავს დაშორებას ტექსტების სტრიქონებს შორის*/
+
+p {
+    letter-spacing: 1px;
+    letter-spacing: 2px;
+    letter-spacing: -50px;
+
+}
+
+/*letter-spacing განსასღვრავს დაშორებას ასოებს შორის*/
+
+p {
+    word-spacing: 1px;
+    word-spacing: 2px;
+    word-spacing: -5px;
+}
+
+/*word-spacing განსაზღვარვს დაშორებას სიტყვებს შორის*/
