@@ -7,3 +7,10 @@ print(txt.capitalize())
 
 print(txt.find('d'))
 
+
+#   .lower()
+#   .upper()
+#   .capitalize()
+#   .find()
+
+

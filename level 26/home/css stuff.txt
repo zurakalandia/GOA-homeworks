@@ -1,0 +1,44 @@
+color: blue;
+color: rgb(255, 255, 255);
+color: #000000; color თვისება განსაზღვრავს ტექსტის ფერს.
+
+
+
+font-size: 16px; font-size თვისება განსაზღვრავს ტექსტის ზომას. 1em = 16px.
+font-size: 1em;
+
+font-family: cursive; font-family თვისება განსაზღვრავს ტექსტის შრიფტს.
+
+font-style: italic; font-style თვისება განსაზღვრავს ტექსტის სტილს. ეს თვისება გამოიყენება ძირითადად იმისათვის, რომ შრიფტი იყოს დახრილი(italic) ან ჩვეულებრივი.
+
+font-weight: 400px; font-weight თვისება განსაზღვრავს ტექსტის სისქეს. 100 - ძაან წვრილი, 400 - ნორმალური, 700 - bold, 900 - ძალიან სქელი.
+
+
+
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize; text-transform-ს ტექსტი გადაყავს lowercase-ში ანუ ასოებს აპატარავებს, uppercase-ში ანუ ადიდებს ან მხოლოდ პირველ ასოს ადიდებს.
+
+text-decoration: overline;
+text-decoration: underline;
+text-decoration: line-through; text-decoration-ით ტექსტს შეგვიძლია დავუმატოტ დეკორაცია, გავუსვათ სხვადასხვა სახის ხაზები სხვადასხვა ადგილას, ან საერთოდ მოვაშოროთ დეკორაცია none- ის გამოყენებით.
+
+text-shadow: 10 20 10 blue; text-shadow ქმნის ჩრდილებს. პირველში იწერება ჩრდილის offset ჰორიზონტალურად, მეორეში ვერტიკალურად, მესამეში ჩრდილისის ბინდის სიძლიერე და მეოთეში ჩრდილის ფერი.
+
+text-align: left;
+text-align: right;
+text-align: center; text-align განსაზღვრავს ტექსტის პოზიციას. მარცხნივ, შუაში, მარჯვნივ.
+
+
+
+line-height: 1; line-height განსაზღვრავს დაშორებას ტექსტების სტრიქონებს შორის
+
+letter-spacing: 1px; letter-spacing განსასღვრავს დაშორებას ასოებს შორის
+
+word-spacing: 1px; word-spacing განსაზღვარვს დაშორებას სიტყვებს შორის
+
+
+
+
+
+
