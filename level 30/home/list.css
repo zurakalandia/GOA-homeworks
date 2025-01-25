@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(117, 186, 255);
+}
+
+h1 {
+    font-family: arial;
+    margin-left: 100px;
+    color: white
+}
+
+ol {
+    margin-left: 35px;
+    
+}
+
+
+.l1 {
+    list-style-image: url(images/number-1.png);
+}
+
+.l2 {
+    list-style-image: url(images/number-2.png);
+}
+
+.l3 {
+    list-style-image: url(images/number-3.png);
+}
+
+.l4 {
+    list-style-image: url(images/number-4.png);
+}
+
+li {
+    background-color: rgb(225, 211, 194);
+    
+    height: 30px;
+    
+    width: 500px;
+    margin: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+

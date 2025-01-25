@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/08/98/35/39/360_F_898353926_zDMSAqDtHCtVNFZuyopxWrJKQnjpPol5.jpg);
+}
+
+div {
+    margin-left: 70px;
+   
+}
+
+h1 {
+    font-family: arial;
+
+}
+  
+
+li {
+    color: rgb(71, 106, 203);
+    margin-bottom: 10px;
+    list-style-image: url(images/right-arrow.png);
+}
