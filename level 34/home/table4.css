@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(40, 45, 60);
+}
+
+table {
+    font-family: monospace;
+    width: 100%
+}
+
+td {
+    border: 0,5px solid rgb(40, 45, 60);
+    border-collapse: collapse;
+    padding: 10px 
+}
+
+/* first row */
+tr:nth-child(1) {
+    color: rgb(90, 150, 170);
+}
+
+tr:nth-child(1) td {
+    padding-bottom: 20px;
+}
+
+/* second row */
+tr:nth-child(2) {
+    background-color: rgb(70, 71, 78);
+}
+
+/* every second row apart form the second one */
+tr:nth-child(even):not(:nth-child(2)) {
+    background: rgb(56, 63, 83);
+}
+
+/* every odd row apart from the first one */
+tr:nth-child(odd):not(:nth-child(1)) {
+    background-color: rgb(47, 52, 67)
+
+}
+/* first cell of every row apart from first one */
+tr:not(:nth-child(1)) td:nth-child(1) {
+    color: rgb(195, 105, 125);
+}
+
+/* any cell that isnt in the first row and doesnt come first */
+tr:not(:nth-child(1)) td:not(:nth-child(1)) {
+    color: rgb(160, 155, 155);
+}
+
+/* 4th cell of second row */
+tr:nth-child(2) td:nth-child(4) {
+    background-color: rgb(230, 230, 95);
+    color: black;
+    font-weight: 700;
+}
+

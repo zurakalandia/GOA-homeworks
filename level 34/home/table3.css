@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    font-family: monospace;
+
+}
+
+tr:nth-child(1) {
+    background-color: rgb(38, 38, 38);
+}
+
+tr:nth-child(2) {
+    background-color: rgba(41, 128, 228, 0.822);
+}
+
+tr:nth-child(3) {
+    background-color: rgb(61, 139, 61);
+}
+
+tr:nth-child(4) {
+    background-color: rgb(230, 218, 8)
+}
+
+tr:nth-child(5) {
+    background-color: rgb(234, 52, 52);
+}
+
+tr:nth-child(6) {
+    background-color: rgb(9, 181, 181);
+}
+
+th, td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px
+}
+
+
+th {
+    text-align: left;
+}

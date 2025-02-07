@@ -1,0 +1,50 @@
+.yt:link {
+    color:pink;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.yt:visited {
+    color: rgb(226, 76, 101);
+    font-weight: 600
+}
+
+.yt:active {
+    color: purple;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.yt:hover {
+    color: rgb(220, 125, 141);
+    letter-spacing: 5px;
+}
+
+
+
+
+
+.facebook:link{
+    color:lime;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.facebook:visited{
+    text-decoration: line-through;
+    color: rgb(3, 87, 3);
+    font-weight: 800
+}
+
+.facebook:active{
+    color: rgb(7, 41, 7);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.facebook:hover{
+    color: rgb(16, 146, 16);
+    letter-spacing: 10px;
+}

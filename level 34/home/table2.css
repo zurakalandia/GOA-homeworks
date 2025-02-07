@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    background-color: rgb(35, 219, 197)
+}
+
+
+h1 {
+    font-family: arial;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: arial;
+    color: white;
+}
+
+td {
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.45);
+    padding: 15px;
+   
+    
+}
+
+td:not(:last-child) {
+    padding-right: 200px;
+}
+
+td:nth-child(1) {
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+tr:nth-child(1) td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.379);
+}
+
+
+
