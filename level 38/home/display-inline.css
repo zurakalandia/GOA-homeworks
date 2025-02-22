@@ -1,0 +1,9 @@
+div {
+    display: inline;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid rgb(46, 126, 129);
+    border-radius: 5px;
+    font-family: monospace;
+}

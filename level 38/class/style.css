@@ -1,0 +1,40 @@
+div {
+    width: 200px;
+    height: 180px;
+    background-color: rgb(11, 140, 157);
+    margin: 20px;
+    border: 1px solid rgb(14, 152, 207);
+
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    text-align: center;
+    
+    
+
+    display: inline-block
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inlline + block = inline-block */
+
+    /* 
+        1. inline
+        2. block
+        3. inline-block
+    
+    */

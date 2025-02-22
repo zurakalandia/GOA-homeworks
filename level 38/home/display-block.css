@@ -1,0 +1,11 @@
+button {
+    display: block;
+    color: white;
+    background-color: rgb(158, 59, 158);
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid rgb(188, 54, 188);
+    border-radius: 15px;
+    font-family: monospace;
+    letter-spacing: 1px;
+}

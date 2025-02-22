@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(148, 210, 210);
+}
+
+section {
+    margin: 30px;
+    width: 600px;
+    background-color: cadetblue;
+    border: solid rgb(23, 110, 112) 3px;
+    border-radius: 10px;
+
+}
+
+header {
+    height: 150px;
+    background-color: rgb(36, 117, 118);
+    
+    
+}
+
+nav {
+    
+    height: 100px;
+    width: 100%;
+    background-color: rgba(36, 116, 118, 0.649);
+    position: fixed;
+    z-index: 1;
+
+}
+
+    
+    
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 700px;
+    top: -150px;
+   
+}
+
+.absolute {
+    position: absolute;
+    top: 700px;
+    left: 0px
+    
+
+}
+
+.sticky {
+    position: sticky;
+    width: 350px;
+    top: 0;
+   
+   
+    
+}
+
+.fixed_footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(36, 116, 118, 0.649);
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+div {
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+    background-color: chocolate;
+    text-align: center;
+    border: 3px solid rgb(154, 69, 8);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    font-family: cursive;
+}

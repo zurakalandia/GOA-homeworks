@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'red hat display';
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    border-radius: 15px;
+    width: 80%;
+    max-width: 450px;
+    overflow: hidden;  
+}
+
+.hero {
+    max-width: 100%;
+}
+
+.info {
+    padding: 7%;
+    text-align: center;
+
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.subtitle {
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+    padding: 0px 20px
+    
+    
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.leftplan {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.leftplan div {
+    margin-left: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+h4 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.plan a {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+
+}
+
+.plan a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.599);
+    transition: all 0.3s ease;
+}
+
+.proceed {
+    display: block;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px 0;
+    border-radius: 10px;
+    margin: 30px 0;
+    font-weight: 900;
+    box-shadow: 0px 15px 20px  hsla(245, 75%, 52%, 0.212)
+}
+
+.proceed:hover {
+    background-color: hsla(245, 75%, 52%, 0.599);
+    transition: all 0.3s ease;
+}
+
+.cancel {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.cancel:hover {
+    color: hsl(227, 18%, 30%);;
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 375px){
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+        font-size: 14px;
+        
+    }
+    
+    
+    .container {
+        width: 90%;
+        
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .plan {
+        padding: 12px;
+        width: 100%;
+            
+    }
+
+    .planleft {
+        margin-left: 10px;
+    }
+
+    .info {
+        padding: 40px;
+    }
+
+
+}

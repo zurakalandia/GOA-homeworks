@@ -1,0 +1,10 @@
+p {
+    -moz-text-size-adjust: none;
+    text-size-adjust: none;
+
+    -moz-animation: none;
+    animation: none;
+    
+    -moz-hyphens: none;
+    hyphens: none;
+}

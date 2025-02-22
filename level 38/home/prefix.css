@@ -1,0 +1,24 @@
+p {
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    background-color: cadetblue;
+    color: white;
+
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    -moz-box-shadow: 5px 5px 10px black;
+    box-shadow: 10px 10px 10px black;
+
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+
+    -moz-text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 2px black;
+
+    
+}
