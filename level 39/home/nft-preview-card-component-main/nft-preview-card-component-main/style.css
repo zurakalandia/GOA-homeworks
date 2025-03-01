@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit;
+    font-size: 20px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin: 1.25rem;
+    
+}
+
+.topImage {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3 ease;
+}
+
+.topImage img {
+    max-width: 100%;
+    display: block;
+   
+}
+
+.overlayImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    display: none;
+   
+}
+
+.overlayImage img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+}
+
+.topImage:hover .overlayImage {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px 26px;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+ul img {
+    margin-right: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 28px;
+    border-radius: 10px;
+    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 50px 5px hsl(213, 86%, 5%);
+}
+
+h3 {
+    color: white;
+    margin: 20px 0px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.author img {
+    width: 36px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.whiteName {
+    color: white;
+    transition: all 0.3s ease;
+   
+}
+
+.whiteName:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+@media only screen and (max-width: 600px)  {
+    .container {
+        width: 90%;
+    }
+    
+}
+
+

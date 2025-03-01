@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 60px;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+    /*
+    from {
+        background-color: cadetblue;
+    }
+
+    to {
+        background-color: red;
+    }
+    */
+
+    14% {
+        background-color: red;
+        border-radius: 5%;
+    }
+
+    28% {
+        background-color: orange;
+        border-radius: 10%;
+
+    }
+
+    42% {
+        background-color: yellow;
+        border-radius: 15%;
+
+    }
+
+    56% {
+        background-color: green;
+        border-radius: 20%;
+
+    }
+
+    70% {
+        background-color: cyan;
+        border-radius: 30%;
+
+    }
+
+    84% {
+        background-color: blue;
+        border-radius: 40%;
+
+    }
+
+    100% {
+        background-color: purple;
+        border-radius: 50%;
+
+    }
+}

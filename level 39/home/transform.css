@@ -1,0 +1,43 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 150px;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 2em;
+    border: 5px solid black;
+    transition: 1s all ease;
+    
+}
+
+.div1:hover {
+    transform: translate(250px)
+    rotate(360deg)
+    scale(2);
+    background-color: chocolate;
+    border-radius: 20px;
+}
+
+.div2:hover {
+    transform: translate(150px)
+    rotate(-360deg)
+    scale(0.5);
+    background-color: chocolate;
+    border-radius: 15px; 
+}
+
+.div3:hover {
+    transform: translate(150px)
+    rotate(720deg)
+    scale(1.5);
+    background-color: chocolate;
+    border-radius: 50%; 
+}
+
+
+
+
+
+

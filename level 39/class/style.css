@@ -14,7 +14,7 @@ div {
 div:hover {
     transform: rotate(90deg)
     translate(200px)
-    scale(2)
+    scale(-2)
     skew(50deg)
 }
 
