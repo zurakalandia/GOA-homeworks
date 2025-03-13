@@ -1,0 +1,77 @@
+:root {
+    --d1-color: blue;
+    --d1-bcolor: cadetblue;
+    --d1-fontSize: 2em;
+    --d1-letterSpacing: 5px;
+    --d1-display: inline-block;
+    --d1-padding: 10px;
+    --d1-margin: 20px;
+    --d1-position: static;
+    --d1-transform: translate(250px);
+    --d1-transition: 1s all ease;
+
+    --d2-color: orange;
+    --d2-bcolor: chocolate;
+    --d2-fontSize: 1.5em;
+    --d2-letterSpacing: 7px;
+    --d2-display: inline-block;
+    --d2-padding: 15px;
+    --d2-margin: 20px;
+    --d2-position: static;
+    --d2-transform: rotate(45deg);
+    --d2-transition: 2s all ease;
+
+    --d3-color: purple;
+    --d3-bcolor: rgb(237, 145, 237);
+    --d3-fontSize: 1.2em;
+    --d3-letterSpacing: 4px;
+    --d3-display: inline-block;
+    --d3-padding: 25px;
+    --d3-margin: 20px;
+    --d3-position: static;
+    --d3-transform: scale(1.5);
+    --d3-transition: 1.5s all ease;
+
+}
+
+d1 {
+    color: var(--d1-color);
+    background-color: var(--d2-color);
+    font-size: var(--d1-fontSize);
+    letter-spacing: var(--d1-letterSpacing);
+    display: var(--d1-display);
+    padding: var(--d1-padding);
+    margin: var(--d1-margin);
+    position: var(--d1-position);
+    transform: var(--d1-transform);
+    transition: var(--d1-transition);
+}
+
+
+
+d2 {
+    color: var(--d2-color);
+    background-color: var(--d2-color);
+    font-size: var(--d2-fontSize);
+    letter-spacing: var(--d2-letterSpacing);
+    display: var(--d2-display);
+    padding: var(--d2-padding);
+    margin: var(--d2-margin);
+    position: var(--d2-position);
+    transform: var(--d2-transform);
+    transition: var(--d2-transition);
+}
+
+d3 {
+    color: var(--d3-color);
+    background-color: var(--d3-color);
+    font-size: var(--d3-fontSize);
+    letter-spacing: var(--d3-letterSpacing);
+    display: var(--d3-display);
+    padding: var(--d3-padding);
+    margin: var(--d3-margin);
+    position: var(--d3-position);
+    transform: var(--d3-transform);
+    transition: var(--d3-transition);
+}
+
