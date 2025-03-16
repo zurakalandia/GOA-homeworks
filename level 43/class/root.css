@@ -34,9 +34,9 @@
 
 }
 
-d1 {
+.div1 {
     color: var(--d1-color);
-    background-color: var(--d2-color);
+    background-color: var(--d1-color);
     font-size: var(--d1-fontSize);
     letter-spacing: var(--d1-letterSpacing);
     display: var(--d1-display);
@@ -49,7 +49,7 @@ d1 {
 
 
 
-d2 {
+.div2 {
     color: var(--d2-color);
     background-color: var(--d2-color);
     font-size: var(--d2-fontSize);
@@ -62,7 +62,7 @@ d2 {
     transition: var(--d2-transition);
 }
 
-d3 {
+.div3 {
     color: var(--d3-color);
     background-color: var(--d3-color);
     font-size: var(--d3-fontSize);
