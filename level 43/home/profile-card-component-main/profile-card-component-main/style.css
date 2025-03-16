@@ -1,0 +1,119 @@
+/*hsl(185, 75%, 39%) hsl(229, 23%, 23%) hsl(227, 10%, 46%*/
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: Kumbh Sans;
+    text-align: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-position: right 60vw bottom 60vh, left 60vw top 60vh;
+    
+
+}
+
+.topPattern {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+.bottomPattern {
+    position: absolute;
+}
+
+
+.container {
+    width: 450px;
+    height: 475px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    
+}
+
+.container h3 {
+    color: hsl(229, 23%, 23%);
+}
+
+.container p, span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    
+}
+
+.upper {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    
+}
+
+.info {
+    height: 50%;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-top: 90px;
+    line-height: 35px;
+}
+
+.background {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 140px;
+}
+
+.bottom {
+    padding: 30px 25px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.bottom div {
+    width: 30%;
+}
+
+.bottom p {
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    body {
+        background-size: cover;
+        background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    }
+}

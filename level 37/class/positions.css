@@ -63,7 +63,7 @@ nav {
     
 }
 
-.fixed_footer {
+.fixedFooter {
     position: fixed;
     bottom: 0;
     background-color: rgba(36, 116, 118, 0.649);
