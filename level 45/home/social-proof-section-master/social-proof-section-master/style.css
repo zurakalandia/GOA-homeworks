@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --heading-color: hsl(300, 43%, 22%);
+    --heading-p-color: hsl(303, 10%, 53%);
+    
+
+    --rates-color: hsl(300, 43%, 22%);
+    --rates-bcolor: hsl(300, 24%, 96%);
+
+    --reviews-bcolor: hsl(300, 43%, 22%);
+    --reviews-color: hsl(300, 24%, 96%);
+    --status-color: hsl(333, 80%, 67%);
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 20px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: league spartan;
+    font-size: 15px;
+}
+
+.wrapper {
+    width: 1100px
+}
+
+
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    
+}
+
+.heading {
+    color: var(--heading-color);
+
+}
+
+.heading h1 {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.heading p {
+    color: var(--heading-p-color);
+    font-weight: 500;
+}
+
+.rates {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+    
+}
+
+.rate1 {
+    align-self: start;
+}
+
+.rate2 {
+    align-self: center;
+}
+
+.rate3 {
+    align-self: end;
+}
+
+.rates div {
+    background-color: var(--rates-bcolor);
+    color: var(--rates-color);
+    font-weight: 700;
+    padding:  20px 40px 20px 25px;
+    display: flex;
+    width: 400px;
+    
+    
+    
+    border-radius: 10px;
+}
+
+.mid {
+    margin-right: 3px;
+}
+
+.last{
+    margin-right: 20px;
+}
+
+.reviews {
+    display: flex;
+    gap: 20px;
+    color: var(--reviews-color);
+    font-weight: 500;
+    height: 250px
+}
+
+.reviews img {
+    border-radius: 50%;
+    width: 35px;
+    margin-right:20px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.status {
+    color: var(--status-color);
+    font-weight: 400;
+}
+
+.review1, .review2, .review3 {
+    background-color: var(--reviews-bcolor);
+    padding: 40px 30px;
+    width: 33%;
+    border-radius: 10px;
+}
+
+.review1 {
+    align-self: start;
+}
+
+.review2 {
+    align-self: center;
+}
+
+.review3 {
+    align-self: end;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width: 800px) {
+    
+
+    .upper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heading {
+        margin-bottom: 30px;
+    }
+
+    
+    
+
+
+    .rate1, .rate2, .rate3 {
+        align-self: center;
+        border-radius: 10px;
+        
+        justify-content: center;
+    
+        
+    }
+
+    .reviews {
+        flex-direction: column;
+    
+    }
+
+    .review1, .review2, .review3 {
+        align-self: center;
+        
+    }
+
+
+}
+
+

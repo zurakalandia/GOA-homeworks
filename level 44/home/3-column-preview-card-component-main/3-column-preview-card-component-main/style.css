@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --firstDiv-Bcolor: hsl(31, 77%, 52%);
+    --secondDiv-Bcolor: hsl(184, 100%, 22%);
+    --thirdDiv-Bcolor: hsl(179, 100%, 13%);
+
+    --pColor: hsla(0, 0%, 100%, 0.75);
+    --bcolor: hsl(0, 0%, 95%);
+    --Hcolor: hsl(0, 0%, 95%);
+    --Buttoncolor: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*general
+---------------------------------------------------------------*/
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: big shoulders;
+    color: var(--Hcolor);
+    text-transform: uppercase;
+    font-size: 2.5em;
+    margin-bottom: 35px;
+    font-weight: 700;
+    
+}
+
+p {
+    font-family: lexend deca;
+    color: var(--pColor);
+    margin-bottom: 80px;
+    line-height: 25px;
+    font-weight: 400;
+
+}
+
+img {
+    margin-bottom: 35px;
+}
+
+/*button design
+---------------------------------------------------------------*/
+
+button {
+    width: 140px;
+    border: 1px solid var(--Buttoncolor);
+    padding: 13px;
+    border-radius: 30px;
+    font-family: lexend deca;
+    transition: 0.3s;
+    font-size: 1em;
+}
+
+.btn1 {
+    color: var(--firstDiv-Bcolor);
+}
+
+.btn2 {
+    color: var(--secondDiv-Bcolor);
+}
+
+.btn3 {
+    color: var(--thirdDiv-Bcolor);
+}
+
+button:hover {
+    color: var(--Buttoncolor);
+    background-color: transparent;
+}
+
+/*container design
+---------------------------------------------------------------*/
+    
+
+.container {
+    display: flex;
+}
+
+.container div {
+    width: 310px;
+}
+
+/*first div design
+---------------------------------------------------------------*/
+.sedans {
+    background-color: var(--firstDiv-Bcolor);
+    border-radius: 10px 0px 0px 10px;
+    padding: 50px
+}
+
+/*second div design
+---------------------------------------------------------------*/
+.suvs {
+    background-color: var(--secondDiv-Bcolor);
+    border-radius: 0;
+    padding: 50px
+}
+/*third div design
+---------------------------------------------------------------*/
+.luxury {
+    background-color: var(--thirdDiv-Bcolor);
+    border-radius: 0px 10px 10px 0px;
+    padding: 50px
+}
+
+/*responsive
+---------------------------------------------------------------*/
+@media (max-width: 950px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .luxury {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+
+
+
