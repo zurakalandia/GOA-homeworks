@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(35, 32, 42);
+}
+
+
+.upper {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.circle1, .circle2, .circle3 {
+    height: 20px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.circle1 {
+    background-color: rgb(223, 77, 77);
+}
+
+.circle2 {
+    background-color: rgb(235, 149, 69);
+    
+}
+
+.circle3 {
+    background-color: rgb(23, 117, 117);
+    margin-right: 20px;
+}
+
+.bar {
+
+    background-color: white;
+    height: 25px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.grid {
+    height: inherit;
+    padding: 30px;
+    display: grid;
+    grid-template-areas: 
+    'orng orng orng'
+    'green1 green2 green2'
+    'green1 rd orng1';
+    grid-template-rows: 0.7fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px
+   
+}
+
+.red {
+    background-color: rgb(223, 77, 77);
+    grid-area: rd;
+}
+
+.orange {
+    background-color: rgb(235, 149, 69);
+    grid-area: orng;
+
+}
+
+.orange1 {
+    background-color: rgb(235, 149, 69);
+    grid-area: orng1;
+
+}
+
+
+.green1 {
+    background-color: rgb(23, 117, 117);
+    grid-area: green1;
+}
+
+.green2 {
+    background-color: rgb(33, 148, 148);
+    grid-area: green2;
+}
+
+
+
+
+
+
