@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #e5ebf2;
+    font-family: sans-serif;
+    color: white
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(225deg, #aeda71, #70ab48);
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    gap: 50px 40px;
+    width: 350px
+}
+
+p {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.radio {
+    display: flex;
+    gap: 30px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.radio div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+input[type="radio"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(228, 223, 223, 0.733);
+    background-color: #7cae5a;
+}
+
+
+
+
+input[type="radio"]:checked:after {
+    content: '';
+    
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(228, 223, 223, 0.733);
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px 1px;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    background: none;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    max-width: 100%;
+    background: none;
+}
+
+input[type="submit"] {
+    width: 30%;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+:focus {
+    outline: none
+}
+
+
+
+

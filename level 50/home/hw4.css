@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background: linear-gradient(225deg, #e15bb0, #d66dcc, #cd75e3);
+   height: 100vh;
+   display: grid;
+   place-content: center;
+   font-family: sans-serif;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 40px 60px;
+    width: 500px;
+    border-radius: 1px;
+    
+}
+
+label {
+    display: block;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.inner {
+    flex-direction: row;
+    gap: 25px
+}
+
+.inner input {
+    width: 50%
+}
+
+p {
+    align-self: center;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+label {
+    font-size: 0.5em;
+    font-weight: 600;
+}
+
+input {
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 10px 15px;
+    border-radius: 1px;
+}
+
+::placeholder {
+    color: rgba(128, 128, 128, 0.5);
+    
+}
+
+textarea {
+    max-width: 100%;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 1px;
+    
+}
+
+textarea::placeholder {
+
+    font-size: 0.8em;
+}
+
+button {
+    gap: 5px;
+    display: flex;
+    color: white;
+    align-self: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 0.7em;
+}
+
+button img {
+    height: 15px;
+}
+
