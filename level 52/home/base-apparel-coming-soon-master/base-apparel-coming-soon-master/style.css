@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --text-color: hsl(0, 36%, 70%);
+    --heading-color: hsl(0, 6%, 24%);
+
+
+    --background-linear: hsl(0, 0%, 100%), hsl(0, 19%, 88%);
+    --search-linear: hsl(0, 80%, 86%), hsl(0, 74%, 74%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heroMobile {
+    display: none;
+    
+    width: 100%
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Josefin Sans;
+    
+    
+}
+
+.heroDesktop {
+    height: 100%;
+}
+
+.wrapper {
+    background: linear-gradient(135deg, var(--background-linear));
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 75px;
+    padding: 30px;
+    
+    
+
+    
+}
+
+.logo {
+    align-self: start;
+    width: 150px
+}
+
+.mobileWrapper {
+    
+    width: 100%
+
+}
+
+.header {
+    font-size: 4em;
+    font-weight: 600;
+    color: var(--heading-color);
+    letter-spacing: 20px;
+
+    text-transform: uppercase;
+}
+
+.header span {
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.searchbar {
+    margin-top: 20px;
+    display: flex;
+    padding: 15px 30px;
+    border: 1px solid hsla(0, 36%, 70%, 0.5);
+    color: var(--text-color);
+    border-radius: 50px;
+    font-size: 1em;
+    position: relative;
+}
+
+.searchbar div {
+    background: linear-gradient(135deg, var(--search-linear));
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+    width: 20%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar img {
+    height: 35%
+}
+
+
+@media (max-width: 1000px) {
+    .heroDesktop {
+        display: none;
+    }
+
+    .heroMobile {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    .logo {
+        padding: 40px;
+        width: 225px
+    }
+
+    .info {
+        padding: 0px 40px;
+        text-align: center;
+    }
+}
+
+
