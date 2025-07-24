@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, blue, red, purple);
+        }
+
+        #extra {
+            display: none;
+        }
+
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 25px
+
+        }
+
+        #container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #sliderDiv {
+            width: 450px;
+            aspect-ratio: 450 / 260;
+            max-width: 100%;
+            border: 2px solid white;
+            border-radius: 10px;
+            overflow: hidden;
+            
+        }
+
+        #slider {
+            width: 100%;
+            height: 100%;
+        }
+
+        #prev, #next {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        #prev:hover, #next:hover, #extra:hover {
+            background-color: gray;
+            
+        }
+
+        #prev img, #next img, #extra img {
+            height: 25px;
+            width: 25px;
+        }
+
+        #dots {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        /*--------------------------------------*/
+
+        .animation {
+            animation: fade 1.2s ease;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.1;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            #extra {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.3s ease;
+            }
+
+            #prev {
+                display: none;
+            }
+
+            #container {
+                flex-direction: column;
+                gap: 25px
+            }
+
+            #wrapper {
+                max-width: 90%;
+            }
+
+            #extraDiv {
+                display: flex;
+                gap: 20px
+            }
+
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="prev" onclick="prev()">
+                <img src="left-arrow.png" alt="">
+            </div>
+            <div id="sliderDiv">
+                <img id="slider" src="python1.png" alt="">
+            </div>
+            <div id="extraDiv">
+                <div id="extra" onclick="prev()">
+                    <img src="left-arrow.png" alt="">
+                </div>
+                <div id="next" onclick="next()">
+                    <img src="right-arrow.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div id="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
