@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    gap: 20px;
+    background-color: #3b4664;
+    font-family: league spartan;
+}
+
+.header {
+    color: white; 
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    border-radius: 5px;
+    width: 90vw;
+    max-width: 300px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+    background-color: #252d44;
+    font-family: league spartan;
+    border-radius: 6px;
+}
+
+#outer {
+    width: 25%
+}
+
+#outer1 {
+    width: 30%
+}
+
+.div2 {
+    background-color: #181f32;
+    width: 100%;
+    padding: 10px 15px 5px;
+    border-radius: 6px;
+    
+    text-align: center;
+    display: inline-block;
+
+}
+
+#counter {
+    font-size: 40px;
+    color: white;
+}
+
+#minus, #plus {
+    width: 100%;
+    padding: 4px 20px;
+    background-color: #eae3db;
+    color: #252d44;
+    font-size: 24px;
+    border-radius: 8px;
+    display: grid;
+    place-content: center;
+    border-bottom: 3px solid #b3a398;
+    font-weight: bold;
+}
+
+#minus:active, #plus:active {
+    position: relative;
+    top: 2px;
+    border-bottom: 1px solid #b3a398;
+}
+
+#minus:hover, #plus:hover {
+    background-color: white;
+}
+
+#res {
+    width: 100%;
+    padding: 4px 20px;
+    background-color: #647299;
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    display: grid;
+    place-content: center;
+    border-bottom: 3px solid #414e70;
+    font-weight: bold;
+}
+
+#res:active {
+    position: relative;
+    top: 2px;
+    border-bottom: 1px solid #414e70;
+}
+
+#res:hover {
+    background-color: #a2b3e1;
+}
+
+#minus, #plus, #res {
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.05s ease;
+}
+
+/*----------animations------------*/
+
+.animation {
+    animation: popIn 0.2s ease;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/*---------responsive--------*/
+
+@media (max-width: 300px) {
+    #minus, #plus, #res {
+        padding: 5px 0px;
+        font-size: 24px;
+    }
+
+    .header {
+        font-size: 24px;
+    }
+
+    #counter {
+        font-size: 30px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content
+    }
+
+    #outer, #outer1 {
+        width: 100%;
+        height: 44px;
+    }
+
+    #minus, #plus, #res {
+        width: 100%
+    }
+}
+
+
+
+

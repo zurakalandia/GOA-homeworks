@@ -1,0 +1,6 @@
+const name = "MasterJaneza"; // primitive
+const age = 29; //primitive
+const skills = ["JavaScript", "React"]; // non primitive
+const greet = function() { return "Hello!"; }; // non primitive
+const isCool = true; // primitive
+const details = { country: "Georgia" }; // non primitive

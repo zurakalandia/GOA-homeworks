@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="container">
+        <div id="upper">
+            <p id="tag">Calculator</p>
+            <div id="sliderWrapper">
+                <p id="sliderLabel">THEME</p>
+                <div id="sliderToggle">
+                    <div id="sliderNumbers">
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                    </div>
+                    <input type="range" min="1" max="3" id="slider" value="1">
+                </div>
+            </div>
+            
+        </div>
+        <div id="display">
+            <div id="expression"></div>
+            <div id="result"></div>
+        </div>
+        <div id="buttonsGrid">
+            <div class="numButton" onclick="press('7')">7</div>
+            <div class="numButton" onclick="press('8')">8</div>
+            <div class="numButton" onclick="press('9')">9</div>
+            <div class="delButton" onclick="del()">DEL</div>
+            <div class="numButton" onclick="press('4')">4</div>
+            <div class="numButton" onclick="press('5')">5</div>
+            <div class="numButton" onclick="press('6')">6</div>
+            <div class="numButton" onclick="press('+')">+</div>
+            <div class="numButton" onclick="press('1')">1</div>
+            <div class="numButton" onclick="press('2')">2</div>
+            <div class="numButton" onclick="press('3')">3</div>
+            <div class="numButton" onclick="press('-')">-</div>
+            <div class="numButton" onclick="press('.')">.</div>
+            <div class="numButton" onclick="press('0')">0</div>
+            <div class="numButton" onclick="press('/')">/</div>
+            <div class="numButton" onclick="press('*')">x</div>
+            <div class="resetButton" onclick="reset()">RESET</div>
+            <div class="calcButton" onclick="calculate()">=</div>
+
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

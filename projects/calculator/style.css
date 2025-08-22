@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+/*----------------reset/body/container----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.noTransition, .noTransition * {
+    transition: none;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: league spartan;
+    font-weight: bold;
+}
+
+#container {
+    max-width: 400px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+/*--------------Colors for Themes--------------*/
+
+* {
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+/*--------theme 1--------*/
+
+body.theme1 {
+    background-color: #3b4664;
+}
+
+body.theme1 #slider {
+    background-color: #252d44;
+}
+
+body.theme1 #slider::-moz-range-thumb {
+    background-color: #d13f30;
+}
+
+body.theme1 #slider::-moz-range-thumb:hover {
+    background-color: #f76a57;
+}
+
+body.theme1 #slider::-webkit-slider-thumb {
+    background-color: #d13f30;
+}
+
+body.theme1 #slider::-webkit-slider-thumb:hover {
+    background-color: #f76a57;
+}
+
+body.theme1 #display {
+    background-color: #181f32;
+}
+
+body.theme1 #tag, body.theme1 #display, body.theme1 #expression, body.theme1 #sliderNumbers, body.theme1 #sliderLabel {
+    color: white;
+}
+
+body.theme1 #buttonsGrid {
+    background-color: #252d44;
+}
+
+body.theme1 .numButton {
+    background-color: #eae3db;
+    color: #252d44;
+    border-bottom: 3px solid #b3a398;
+}
+
+body.theme1 .numButton:active {
+    border-bottom: 1px solid #b3a398;
+}
+
+body.theme1 .delButton {
+    background-color: #647299;
+    color: white;
+    border-bottom: 3px solid #414e70;
+}
+
+body.theme1 .delButton:active, body.theme1 .resetButton:active {
+    border-bottom: 1px solid #414e70;
+}
+
+body.theme1 .resetButton {
+    background-color: #647299;
+    color: white;
+    border-bottom: 3px solid #414e70;
+}
+
+body.theme1 .calcButton {
+    background-color: #d13f30;
+    color: white;
+    border-bottom: 3px solid #8c271d;
+}
+
+body.theme1 .calcButton:active {
+    border-bottom: 1px solid #8c271d;
+}
+
+body.theme1 .numButton:hover {
+    background-color: #ffffff;
+}
+
+body.theme1 .delButton:hover, body.theme1 .resetButton:hover {
+    background-color: #a2b3e1;
+}
+
+body.theme1 .calcButton:hover {
+    background-color: #f96c5b;
+}
+
+/*--------theme 2--------*/
+
+body.theme2 {
+    background-color: #e6e6e6;
+}
+
+body.theme2 #slider {
+    background-color: #d3cdcd;
+}
+
+body.theme2 #slider::-moz-range-thumb {
+    background-color: #c9580a;
+}
+
+body.theme2 #slider::-moz-range-thumb:hover {
+    background-color: #fb8a31;
+}
+
+body.theme2 #slider::-webkit-slider-thumb {
+    background-color: #c9580a;
+}
+
+body.theme2 #slider::-webkit-slider-thumb:hover {
+    background-color: #fb8a31;
+}
+
+body.theme2 #display {
+    background-color: #eeeeee;
+}
+
+body.theme2 #tag, body.theme2 #display, body.theme2 #expression, body.theme2 #sliderNumbers, body.theme2 #sliderLabel {
+    color: #343429;
+}
+
+body.theme2 #buttonsGrid {
+    background-color: #d3cdcd;
+}
+
+body.theme2 .numButton {
+    background-color: #e5e4e0;
+    color: #343429;
+    border-bottom: 3px solid #a69c91;
+}
+
+body.theme2 .numButton:active {
+    border-bottom: 1px solid #a69c91;
+}
+
+body.theme2 .delButton {
+    background-color: #388187;
+    color: white;
+    border-bottom: 3px solid #1c5e66;
+}
+
+body.theme2 .delButton:active, body.theme2 .resetButton:active {
+    border-bottom: 1px solid #1c5e66;
+}
+
+body.theme2 .resetButton {
+    background-color: #388187;
+    color: white;
+    border-bottom: 3px solid #1c5e66;
+}
+
+body.theme2 .calcButton {
+    background-color: #c85401;
+    color: white;
+    border-bottom: 3px solid #873800;
+}
+
+body.theme2 .calcButton:active {
+    border-bottom: 1px solid #873800;
+}
+
+body.theme2 .numButton:hover {
+    background-color: #ffffff;
+}
+
+body.theme2 .delButton:hover, body.theme2 .resetButton:hover {
+    background-color: #62b5bd;
+}
+
+body.theme2 .calcButton:hover {
+    background-color: #ff8b38;
+}
+
+/*--------theme 3--------*/
+
+body.theme3 {
+    background-color: #17062a;
+}
+
+body.theme3 #slider {
+    background-color: #1e0836;
+}
+
+body.theme3 #slider::-moz-range-thumb {
+    background-color: #00dad2;
+}
+
+body.theme3 #slider::-moz-range-thumb:hover {
+    background-color: #abf3ee;
+}
+
+body.theme3 #slider::-webkit-slider-thumb {
+    background-color: #00dad2;
+}
+
+body.theme3 #slider::-webkit-slider-thumb:hover {
+    background-color: #abf3ee;
+
+}
+
+body.theme3 #display {
+    background-color: #1e0836;
+}
+
+body.theme3 #tag, body.theme3 #display, body.theme3 #expression, body.theme3 #sliderNumbers, body.theme3 #sliderLabel {
+    color: #ffe340;
+}
+
+body.theme3 #buttonsGrid {
+    background-color: #1e0836;
+}
+
+body.theme3 .numButton {
+    background-color: #331b4d;
+    color: #ffe340;
+    border-bottom: 3px solid #851e9d;
+}
+
+body.theme3 .numButton:active {
+    border-bottom: 1px solid #851e9d;
+}
+
+body.theme3 .delButton {
+    background-color: #56077c;
+    color: white;
+    border-bottom: 3px solid #bf15f4;
+}
+
+body.theme3 .delButton:active, body.theme3 .resetButton:active {
+    border-bottom: 1px solid #bf15f4;
+}
+
+body.theme3 .resetButton {
+    background-color: #56077c;
+    color: white;
+    border-bottom: 3px solid #bf15f4;
+}
+
+body.theme3 .calcButton {
+    background-color: #00decf;
+    color: #062e31;
+    border-bottom: 3px solid #6df8f0;
+}
+
+body.theme3 .calcButton:active {
+    border-bottom: 1px solid #6df8f0;
+}
+
+body.theme3 .numButton:hover {
+    background-color: #6b34ac;
+}
+
+body.theme3 .delButton:hover, body.theme3 .resetButton:hover {
+    background-color: #8631b0;
+}
+
+body.theme3 .calcButton:hover {
+    background-color: #94fff9;
+}
+
+/*--------------slider---------------*/
+
+#upper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#sliderWrapper {
+    display: flex;
+    gap: 25px;
+}
+
+#sliderLabel {
+    font-size: 12px;
+    position: relative;
+    top: 45%;
+    height: fit-content
+}
+
+#sliderToggle {
+    width: 60px;
+}
+
+#sliderNumbers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    font-size: 12px;
+}
+
+#slider {
+    appearance: none;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#slider::-moz-range-thumb {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+/*-----------display/expression/result----------*/
+
+#tag {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    white-space: nowrap;
+    direction: ltr
+}
+
+#display {
+    padding: 25px 15px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+#expression {
+    font-size: 32px;
+    width: 100%;
+    max-width: 100%;
+    text-align: right;
+    font-weight: bold;
+    overflow-x: auto;
+    height: 42px;
+    padding-right: 10px;
+}
+
+#result {
+    height: 20px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+/*-----------buttons----------*/
+
+#buttonsGrid {
+    display: grid;
+    grid-template-columns:  repeat(4, minmax(0, 1fr));
+    grid-template-rows: auto auto auto auto auto;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+
+.numButton {
+    font-size: 28px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    display: grid;
+    place-content: center;
+}
+
+.numButton:active {
+    transform: translateY(2px);
+}
+
+.delButton {
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.delButton:active, .resetButton:active {
+    transform: translateY(2px);
+}
+
+.resetButton {
+    grid-column: 1 / 3;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.calcButton {
+    grid-column: 3 / 5;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.calcButton:active {
+    transform: translateY(2px);
+}
+
+.numButton,
+.delButton,
+.resetButton,
+.calcButton {
+    user-select: none;
+    cursor: pointer;
+    transition: transform 0.05s ease, background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+
+/*-----------------animations------------------*/
+
+.pop-in {
+    animation: popIn 0.3s ease;
+    display: inline-block;
+    
+    
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    80% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pop-out {
+    animation: popOut 0.2s ease;
+}
+
+@keyframes popOut {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    
+    100% {
+        transform: scale(0);
+    }
+}
+
+/*---------------responsive--------------*/
+
+@media (max-width: 475px) {
+    #container {
+        width: 90vw;
+        max-width: 300px;
+        
+    }
+
+    #tag {
+        font-size: 24px;
+    }
+
+    #sliderWrapper {
+        gap: 15px;
+    }
+
+    #buttonsGrid {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    #display {
+        padding: 15px 5px;
+    }
+
+    #expression {
+        font-size: 25px;
+        height: 35px;
+    }
+
+    #result {
+        font-size: 12px;
+        height: 15px
+    }
+
+    .numButton {
+        font-size: 20px;
+        padding: 4px 10px;
+
+    }
+    .delButton,
+    .resetButton,
+    .calcButton {
+        font-size: 15px;
+        padding: 4px 10px;
+
+    }
+}
+
+
+@media (max-width: 280px) {
+
+    #sliderWrapper {
+        gap: 10px;
+    }
+    
+    #sliderToggle {
+        width: 40px;
+
+    }
+
+    #slider::-moz-range-thumb, #slider::-webkit-slider-thumb {
+        height: 8px;
+        width: 8px;
+    }
+
+    #slider {
+        height: 15px
+    }
+
+    #sliderLabel {
+        font-size: 8px;
+    }
+
+    #sliderNumbers {
+        font-size: 8px;
+    }
+}
+
+    
+
+@media (max-width: 220px) {
+    .numButton {
+        font-size: 10px;
+        padding: 2px 5px;
+
+    }
+
+    #tag {
+        font-size: 12px;
+    }
+
+    .delButton,
+    .resetButton,
+    .calcButton {
+        font-size: 7.5px;
+        padding: 2px 5px;
+    }
+
+    #buttonsGrid {
+        padding: 10px;
+    }
+
+    #display {
+        padding: 10px 0px;
+    }
+
+    #expression {
+        font-size: 12.5px;
+        height: 20px;
+    }
+
+    #result {
+        font-size: 6px;
+        height: 7.5px;
+    }
+
+    #upper {
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+
+   
+    
+}
