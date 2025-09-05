@@ -1,0 +1,1 @@
+let sum = (...numbers) => numbers.reduce((acc, value) => acc + value, 0);
