@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Green-500: hsl(158, 36%, 37%);
+  --Green-700: hsl(158, 42%, 18%);
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* BACKGROUND COLORS */
+
+.bgCream {
+  background-color: var(--Cream);
+}
+
+.bgWhite {
+  background-color: var(--White);
+}
+
+.bgGreen-500 {
+  background-color: var(--Green-500);
+}
+
+/* TEXT COLORS */
+
+.textGreen-500 {
+  color: var(--Green-500);
+}
+
+.textBlack {
+  color: var(--Black)
+}
+
+.textGrey {
+  color: var(--Grey);
+}
+
+/* FONTS */
+
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+.fraunces {
+  font-family: 'Fraunces';
+}
+
+/* END OF COLORS AND FONTS */
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+
+

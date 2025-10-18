@@ -1,0 +1,287 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 150px;
+}
+
+p {
+  color: white
+}
+
+/*HEADER*/
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px
+}
+
+.header div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/*TITLE / SEARCHBAR*/
+
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+.searchDiv {
+  display: flex;
+  gap: 10px;
+  min-width: 70%;
+  max-width: 90%;
+  font-size: 18px;
+}
+
+.searchBar {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  width: 80%;
+  cursor: pointer;
+}
+
+
+.searchButton {
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  gap: 25px;
+}
+
+.leftContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px
+}
+
+.rightContainer {
+  width: 30%
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 3fr 1fr;
+  column-gap: 20px;
+  row-gap: 25px;
+}
+
+.upperGrid {
+  background-image: url(/images/bg-today-large.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: 1 / 1 / 2 / 5;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.leftGrid {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leftGrid h5 {
+  font-size: 28px;
+  color: white
+}
+
+.rightGrid {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rightGrid h3 {
+  font-size: 90px;
+  font-style: italic;
+  font-weight: 600;
+  color: white
+}
+
+.upperGrid img {
+  max-width: 100px;
+}
+
+
+
+
+.smallGrid {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  border-radius: 10px;
+  border: 1px solid hsl(243, 23%, 30%);
+}
+
+.smallGrid p {
+  font-weight: 500;
+}
+
+.smallGrid h5 {
+  font-size: 28px;
+  color: white;
+  font-weight: 300;
+}
+
+.forecastDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}
+
+.forecastDiv h5 {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+}
+
+.forecastGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px
+}
+
+.forecastGrid img {
+  max-width: 60px;
+}
+
+.forecastGrid .weekDay {
+  border-radius: 10px;
+  border: 1px solid hsl(243, 23%, 30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 20px;
+  font-weight: 300;
+
+}
+
+.weekDay p {
+  color: white;
+  font-size: 18px;
+
+}
+
+.weekDay div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.weekDay div p {
+  font-size: 16px;
+}
+
+/*-------------------------*/
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.rightContainerHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightContainerHead div {
+  padding: 10px 15px;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.rightContainer h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: white
+}
+
+.rightContainer img {
+  max-width: 40px;
+}
+
+.rightContainerMain {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  height: 100%;
+  gap: 15px
+}
+
+.rightMainSub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid hsl(243, 23%, 30%);
+}
+
+.rightMainSub p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.rightMainSub div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rightMainSub div p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+

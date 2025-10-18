@@ -1,0 +1,66 @@
+
+.proj1-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 90%;
+    max-height: 90%;
+    
+}
+
+.proj1-info {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.proj1-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.proj1-desc {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+
+}
+
+.proj1-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    width: 100%
+}
+
+.proj1-buttons button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.3s all ease;
+}
+
+
+
+.proj1-img {
+    width: 75px;
+    border-radius: 50%;
+}
+
+.proj1-buttons button:hover {
+    background-color: var(--Green);
+    color: black;
+}
+

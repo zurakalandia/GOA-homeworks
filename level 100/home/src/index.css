@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --Grey700: hsl(0, 0%, 20%);
+  --Grey800: hsl(0, 0%, 12%);
+  --Grey900: hsl(0, 0%, 8%);
+
+  --Green-500: hsl(158, 36%, 37%);
+  --Green-700: hsl(158, 42%, 18%);
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+
+  --Blue500: hsl(215, 51%, 70%);
+  --Cyan400: hsl(178, 100%, 50%);
+  --Blue950: hsl(217, 54%, 11%);
+  --Blue900: hsl(216, 50%, 16%);
+  --Blue800: hsl(215, 32%, 27%);
+}
+
+/*---------project 1 colors----------*/
+
+.bgGrey700 {
+    background-color: var(--Grey700);
+}
+
+.bgGrey800 {
+    background-color: var(--Grey800);
+}
+
+.bgGrey900 {
+    background-color: var(--Grey900);
+}
+
+/*TEXT COLORS*/
+
+.textGreen {
+    color: var(--Green);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.textWhite {
+    color: var(--White);
+}
+
+/*-----------project 2 colors------------*/
+
+.bgCream {
+  background-color: var(--Cream);
+}
+
+.bgWhite {
+  background-color: var(--White);
+}
+
+.bgGreen-500 {
+  background-color: var(--Green-500);
+}
+
+/* TEXT COLORS */
+
+.textGreen-500 {
+  color: var(--Green-500);
+}
+
+.textBlack {
+  color: var(--Black)
+}
+
+.textGrey {
+  color: var(--Grey);
+}
+
+/*-----------project 3 colors------------*/
+
+.textBlue500 {
+  color: var(--Blue500);
+}
+
+.textCyan400 {
+  color: var(--Cyan400);
+}
+
+.bgBlue950 {
+  background-color: var(--Blue950);
+}
+
+.bgBlue900 {
+  background-color: var(--Blue900);
+}
+
+/*-------SPECIAL-------*/
+
+.inter {
+  font-family: inter;
+}
+
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+.fraunces {
+  font-family: 'Fraunces';
+}
+
+.outfit {
+  font-family: 'outfit';
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

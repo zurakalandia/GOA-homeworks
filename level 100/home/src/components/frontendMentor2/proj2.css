@@ -1,0 +1,96 @@
+
+.proj2-container {
+  display: flex;
+}
+
+.proj2-imageDiv {
+  width: 300px;
+  height: 450px;
+  background-image: url('/images/image-product-desktop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.proj2-descDiv {
+  padding: 30px;
+  max-width: 300px;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px
+}
+
+.proj2-tag {
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.proj2-container h3 {
+  font-size: 34px;
+  text-align: start;
+  line-height: 34px;
+}
+
+
+.proj2-container p {
+  font-size: 14px;
+}
+
+.proj2-desc {
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.proj2-priceDiv {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.proj2-priceDiv p {
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.proj2-container button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  color: var(--White);
+  transition: all 0.15s ease;
+}
+
+.proj2-container button:hover {
+  background-color: var(--Green-700);
+}
+
+@media (max-width: 768px) {
+  .proj2-container {
+    flex-direction: column;
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .proj2-imageDiv {
+    background-image: url('/images/image-product-mobile.jpg');
+    max-height: 340px;
+    width: 350px;
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .proj2-descDiv {
+    border-radius: 0px 0px 10px 10px;
+    max-width: 350px;
+    gap: 15px;
+    padding: 20px
+
+  }
+}

@@ -1,0 +1,46 @@
+img {
+  width: 600px;
+}
+
+button {
+  background-color: lightgray;
+  border: none;
+  border-bottom: 3px solid darkgray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(189, 189, 189);
+  height: 28px
+}
+
+button:active {
+  border-bottom: 1px solid darkgray;
+  height: 26px;
+  transform: translateY(2px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+span {
+  width: fit-content;
+  
+}
+
+div {
+  display: flex; 
+  gap: 10px
+}
+
+div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

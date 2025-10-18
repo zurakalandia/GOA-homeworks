@@ -1,0 +1,109 @@
+.project3-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.project3-topImage {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s all ease;
+    aspect-ratio: 1/1;
+
+}
+
+.project3-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+.project3-overlayImage {
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project3-topImage:hover .project3-overlay {
+    display: block;
+    
+}
+
+
+
+.project3-mainImage {
+    max-width: 100%;
+
+}
+
+.project3-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid var(--Blue800);
+    padding: 20px 0px
+}
+
+.project3-desc h4 {
+    font-size: 22px;
+    font-weight: 600;
+    width: fit-content
+}
+
+.project3-container .textWhite {
+    cursor: pointer;
+    transition: 0.15s all ease;
+}
+
+.project3-container .textWhite:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.project3-desc p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.project3-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+    
+}
+
+.project3-details img {
+    height: 18px
+}
+
+.project3-detail1, .project3-detail2 {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.project3-credit {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.project3-credit img {
+    width: 35px;
+    border: 1px white solid;
+    border-radius: 50%;
+}
