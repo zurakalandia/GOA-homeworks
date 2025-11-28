@@ -1,0 +1,49 @@
+
+
+
+let heading = React.createElement(
+    'h1',
+    null,
+    'I am a heading with no attributes'
+);
+
+let paragraph = React.createElement(
+    'p',
+    {
+        className: 'blue500'
+    },
+    'I am a paragraph with a class'
+);
+
+
+let link = React.createElement(
+    'a',
+    {
+        href: https://example.com
+    },
+    'I am a dummy link'
+);
+
+------------------------------------------------------------
+
+let users = [user1, user2, user3];
+
+let listOfUsers = <ul>{users.map((name, index) => <li key={index}>{name}</li>)}</ul>
+
+
+
+let fruits = [apple, banana, mango];
+
+let listOfFruits = <ul>{users.map((fruit, index) => <li key={index}>{fruit}</li>)}</ul>
+
+-------------------------------------------------------------
+
+let listWithKeys = (
+    <ul>
+        <li key='001'>user1</li>
+        <li key='002'>user2</li>
+        <li key='003'>user3</li>
+    </ul>
+);
+
+

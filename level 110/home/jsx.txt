@@ -1,0 +1,35 @@
+class vs className
+
+in HTML we use class as an attribute.
+in jSX we cant use the word class for attributes because its a reserved keyword for creating classes.
+because of this we use className.
+when JSX is rendered, jsx className attributes are automatically rendered as class attributes.
+
+
+
+self closing tags
+
+most HTML elements use 2 tags: an opening tag, and a closing tag. some elements use just 1 tag, those are self-closing tags.
+in HTML its optional to use a slash before the final angle bracket.
+in JSX its mandatory to include a slash before the final bracket.
+
+
+
+curly braces
+
+we use curly braces inside JSX code to be able to use javascript code inside JSX. curly braces are markers that signal javascript code begins and ends inside of JSX code.
+injecting javascript inside of JSX.
+
+
+
+variable attribute
+
+we can use variables to set attributes.
+you have to put the attribute's value(variable) inside curly brackets if its a variable that evaluates to the value you want to assign.
+you can access variables declared outside of the JSX code block as long as its in the same javascript file.
+
+
+
+
+
+

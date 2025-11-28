@@ -1,0 +1,28 @@
+react uses normal javascript for creating conditional statemments.
+
+
+
+
+
+the if statement
+
+you can not inject an if statement into a JSX expression.
+One option is to write an if statement and not inject it into JSX. (outside of JSX)
+
+
+
+
+
+there is a more compact way to write conditionals in JSX: the ternary operator.
+
+it works the same way in react as it does in javascript. its evaluated to an expression.
+you write x ? y : z, where x, y, and z are all JavaScript expressions. When your code is executed, x is evaluated as either “truthy” or “falsy”. If x is truthy, then the entire ternary operator returns y. If x is falsy, then the entire ternary operator returns z.
+
+
+
+
+
+one final way of writing conditionals in React: the && operator.
+
+&& works best for conditionals that will sometimes do an action but other times do nothing at all.
+If the expression on the left of the && evaluates as true, then the JSX on the right of the && will be rendered. If the first expression is false, however, then the JSX to the right of the && will be ignored and not rendered.

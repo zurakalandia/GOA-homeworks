@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+.wrapper {
+    padding: 15px;
+    display: flex;
+    gap: 25px
+}
+
+.left {
+    display: flex;
+    gap: 10px;
+    width: 50%
+}
+
+.sidePreview {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.sidePreview img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.imagePreview {
+    width:75%
+}
+
+.imagePreview img {
+    width: 100%
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+h2 {
+    font-size: 30px;
+    font-family: zalando sans semiExpanded;
+}
+
+.rating {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.rating img {
+    max-width: 20px;
+}
+
+.price {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.currPrice {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.oldPrice {
+    font-weight: 600;
+    text-decoration: line-through;
+    color: grey;
+    font-size: 28px;
+}
+
+.discount {
+    background-color: #f8eae7;
+    color: #d54729;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.info {
+    color: grey;
+}
+
+.colorsDiv {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.colorsDiv p {
+    color: grey;
+    font-weight: 400;
+}
+
+.colorsDiv div {
+    display: flex;
+    gap: 15px
+}
+
+.colorCircle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px
+}
+
+.color1 {
+    background-color: #4b4832;
+}
+
+.color2 {
+    background-color: #3d504d;
+}
+
+.color3 {
+    background-color: #35304d;
+}
+
+.sizesDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}
+
+.sizesDiv p {
+    color: grey
+}
+
+.buttonsDiv {
+    display: flex;
+    gap: 10px
+}
+
+.buttonsDiv button {
+    background-color: rgb(213, 213, 213);
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.finalDiv {
+    display: flex;
+    gap: 15px;
+    width: 100%
+}
+.countDiv {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(213, 213, 213);
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.countDiv img {
+    max-width: 15px
+}
+
+.finalDiv button {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    width: 100%
+}

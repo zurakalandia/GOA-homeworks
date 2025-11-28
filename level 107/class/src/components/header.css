@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}

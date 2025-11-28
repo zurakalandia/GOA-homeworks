@@ -1,0 +1,114 @@
+header {
+  background-color: #262634;
+  color: white;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  font-family: arial;
+}
+
+.clock {
+  height: 250px;
+  width: 175px;
+  border-radius: 20px;
+  border: 10px solid #d4d5d6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+
+h4 {
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px
+}
+
+.colors div {
+  width: 50px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: #ab5039;
+}
+
+.blue {
+  background-color: #56567a;
+}
+
+.purple{
+  background-color: #7a5861;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px
+
+}
+
+.buttons button {
+  background-color: #eceaea;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.buyButton {
+  background-color: #e6aa52;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  width: fit-content;
+  border-radius: 5px;
+}
+

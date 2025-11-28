@@ -1,7 +1,4 @@
-import './Home.css'
-
 export default function Home(props) {
-
     let handleClick = () => {
         props.setCount(curr => curr + 1);
     };

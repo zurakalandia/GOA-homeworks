@@ -1,0 +1,10 @@
+React is a JavaScript library used to build user interfaces, mainly for websites and web apps.
+Instead of making a whole webpage reload when something changes, React updates only the pieces that need to change, which makes apps feel faster and smoother.
+
+It’s built around components. These components can be reused, so developers can build more efficiently.
+
+
+React is used for building interactive user interfaces especially for websites and web applications.
+
+JSX is a special syntax used in React that lets you write HTML-like code inside JavaScript.
+JSX is a way to write UI elements inside JavaScript so React can convert it into code that the browser understands.
